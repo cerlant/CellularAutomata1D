@@ -75,11 +75,11 @@ class App:
         pyxel.run(self.update, self.draw)
 
     def update(self):
-        if pyxel.btnr(pyxel.KEY_SPACE):
+        if (pyxel.btnr(pyxel.KEY_SPACE) or pyxel.btnr(pyxel.GAMEPAD1_BUTTON_A)):
             pyxel.cls(0)
             cells.new_ruleset()
             cells.default(with_new_rule=True)
-        elif pyxel.btnr(pyxel.KEY_N):
+        elif (pyxel.btnr(pyxel.KEY_N) or pyxel.btnr(pyxel.GAMEPAD1_BUTTON_B)):
             pyxel.cls(0)
             cells.default()
 
