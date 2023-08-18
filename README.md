@@ -15,7 +15,7 @@ https://natureofcode.com/book/chapter-7-cellular-automata/
 ---
 ## Author
 
-- [@cerlant](https://www.github.com/cerlant)
+- [@milanocr](https://www.github.com/milanocr)
 
 ---
 ## Acknowledgements
