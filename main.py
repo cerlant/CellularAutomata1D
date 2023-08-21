@@ -5,8 +5,8 @@ This algorithm is based in the Chapter 7 of the book
 The Nature of Code
 https://natureofcode.com/book/chapter-7-cellular-automata/
 
-- Cerlant
-https://github.com/cerlant
+- Carmelo Milano
+https://github.com/milanocr
 '''
 
 import pyxel
